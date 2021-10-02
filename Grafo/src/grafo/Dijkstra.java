@@ -1,9 +1,6 @@
 package grafo;
 
 import java.util.ArrayList;
-import grafo.Aresta;
-import grafo.Grafo;
-import grafo.Vertice;
 
 public class Dijkstra<T> {
     public void dijkstra(Grafo<T> grafo, T inicio, T fim) {

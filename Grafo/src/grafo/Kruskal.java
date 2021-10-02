@@ -3,10 +3,6 @@ package grafo;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import grafo.Aresta;
-import grafo.Grafo;
-import grafo.Vertice;
-
 public class Kruskal {
     public static <T> void kruskal(Grafo<T> g) {
         Grafo<T> arvGer = new Grafo<>();
